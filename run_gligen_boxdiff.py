@@ -86,6 +86,9 @@ def main(config: RunConfig):
     if len(config.bbox[0]) == 0:
         config.bbox = draw_rectangle()
 
+    print(config.gligen_phrases)
+    print(config.bbox)
+
     images = []
     for seed in config.seeds:
         print(f"Current seed is : {seed}")
