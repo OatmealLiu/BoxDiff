@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=0 python3 run_sd_boxdiff.py \
+CUDA_VISIBLE_DEVICES=3 python3 run_sd_boxdiff.py \
           --prompt "as the aurora lights up the sky, a herd of reindeer leisurely wanders on the grassy meadow, admiring the breathtaking view, a serene lake quietly reflects the magnificent display, and in the distance, a snow-capped mountain stands majestically, fantasy, 8k, highly detailed" \
           --P 0.2 \
           --L 1 \
