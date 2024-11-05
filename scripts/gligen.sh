@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=0 python3 run_gligen_boxdiff.py \
+CUDA_VISIBLE_DEVICES=3 python3 run_gligen_boxdiff.py \
               --prompt "A rabbit wearing sunglasses looks very proud" \
               --gligen_phrases ["a rabbit", "sunglasses"] \
               --P 0.2 \
