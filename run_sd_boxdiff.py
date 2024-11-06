@@ -107,7 +107,7 @@ def main(config: RunConfig):
 
     # save a grid of results across all seeds
     joined_image = vis_utils.get_image_grid(images)
-    joined_image.save(config.output_path / f'{config.prompt}.png')
+    joined_image.save(config.output_path / f'{config.prompt[:20]}.png')
 
 
 if __name__ == '__main__':
